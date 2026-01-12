@@ -6,5 +6,6 @@ def get_llm():
         model="llama-3.1-8b-instant",
         temperature=0.2,
         streaming=True,
-        callbacks=[tracer],  # ✅ LangSmith tracing
+        callbacks=[tracer],  
     )
+

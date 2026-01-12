@@ -1,0 +1,13 @@
+langchain
+langchain-core
+langgraph
+langchain-community
+langsmith
+groq
+sentence-transformers
+faiss-cpu
+rank-bm25
+pypdf
+streamlit
+python-dotenv
+langchain-text-splitters

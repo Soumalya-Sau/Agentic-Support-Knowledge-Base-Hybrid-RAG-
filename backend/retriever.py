@@ -2,7 +2,6 @@ from rank_bm25 import BM25Okapi
 from backend.config import TOP_K
 from backend.embeddings import load_vectorstore
 
-# ✅ Load FAISS ONCE (safe)
 VECTORSTORE = None
 
 def get_vectorstore():
@@ -25,3 +24,4 @@ def hybrid_retrieve(query, documents):
     # ----- Merge & deduplicate -----
     combined = {doc.page_content: doc for doc in bm25_docs + semantic_docs}
     return list(combined.values())
+

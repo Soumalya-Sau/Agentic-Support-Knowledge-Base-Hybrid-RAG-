@@ -223,7 +223,7 @@ See requirements.txt for full list.
 
 This project is licensed under the MIT License.
 
-🙏 Acknowledgements
+## 🙏 Acknowledgements
 
 • LangChain for RAG abstractions
 

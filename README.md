@@ -1,4 +1,4 @@
-# 🤖 Support Knowledge Base Agent (Hybrid RAG System)
+# 🤖 Agentic Support Knowledge Base (Hybrid RAG System)
 
 An intelligent **Support Knowledge Base Agent** built using a **hybrid Retrieval-Augmented Generation (RAG)** pipeline.  
 The system allows users to upload documents (PDFs), retrieve relevant information using **keyword + semantic search**, and generate accurate answers using a **Groq LLM**, with clear source citations.

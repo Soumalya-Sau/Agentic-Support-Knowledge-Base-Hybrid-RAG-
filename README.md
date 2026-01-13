@@ -14,8 +14,6 @@ This project is designed to be **stable, modular, and interview-ready**, avoidin
 - Virtual environment (`venv`)
 - Groq API Key
 
----
-
 ### Installation
 
 ```
@@ -79,15 +77,15 @@ http://localhost:8501
 
 3. Documents are:
 
-  • Loaded using PyPDFLoader
+• Loaded using PyPDFLoader
 
-  • Chunked with RecursiveCharacterTextSplitter
+• Chunked with RecursiveCharacterTextSplitter
 
-  • Embedded using a free HuggingFace embedding model
+• Embedded using a free HuggingFace embedding model
 
-  • Stored locally in a FAISS vector index
+• Stored locally in a FAISS vector index
 
-  • Embeddings are computed once and reused for all queries.
+• Embeddings are computed once and reused for all queries.
 
 ## 🔍 RAG Pipeline (Hybrid Retrieval)
 
@@ -95,9 +93,9 @@ http://localhost:8501
 
 The system uses hybrid retrieval:
 
-  • BM25 (keyword search) — exact term matching
+• BM25 (keyword search) — exact term matching
 
-  • FAISS (semantic search) — vector similarity
+• FAISS (semantic search) — vector similarity
 
 Both signals are combined to improve retrieval quality and reduce hallucinations.
 

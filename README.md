@@ -128,20 +128,7 @@ Source:
 
 ## 🧱 System Architecture
 
-```
-Streamlit Frontend
-   |
-   |  HTTP (requests)
-   v
-FastAPI Tool Server (MCP-style)
-   |
-   v
-Hybrid RAG Backend
-(BM25 + FAISS + HuggingFace Embeddings)
-   |
-   v
-Groq LLM
-```
+![System Architecture](assets/Flowchart.png)
 
 ## 📁 Project Structure
 

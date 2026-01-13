@@ -1,13 +1,24 @@
+# -------- Core Python --------
+python-dotenv
+
+# -------- UI --------
+streamlit
+
+# -------- LLM --------
 langchain
 langchain-core
-langgraph
 langchain-community
-langsmith
-groq
+langchain-groq
+
+# -------- RAG / NLP --------
 sentence-transformers
 faiss-cpu
 rank-bm25
 pypdf
-streamlit
-python-dotenv
-langchain-text-splitters
+
+# -------- API Server --------
+fastapi
+uvicorn
+
+# -------- Utilities --------
+requests

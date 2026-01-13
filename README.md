@@ -188,7 +188,7 @@ All directories are valid Python packages (__init__.py included).
 
 ## ⚙️ Design Choices & Rationale
 
-F• astAPI instead of experimental MCP transports for stability
+• FastAPI instead of experimental MCP transports for stability
 
 • Hybrid retrieval to improve recall and precision
 
@@ -203,11 +203,17 @@ F• astAPI instead of experimental MCP transports for stability
 Key libraries used:
 
 • Streamlit
+
 • FastAPI + Uvicorn
+
 • LangChain
+
 • FAISS
+
 • Rank-BM25
+
 • Sentence-Transformers
+
 • Groq LLM
 
 See requirements.txt for full list.
